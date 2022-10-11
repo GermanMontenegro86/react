@@ -6,7 +6,8 @@ import './CartWidget.css';
 const CartWidget=()=>{
     return(
         <div className="carrito">
-            <FontAwesomeIcon icon={faCartArrowDown}/>
+            <a  href="#"> <FontAwesomeIcon icon={faCartArrowDown}/></a>
+           
         </div>
     )
 }

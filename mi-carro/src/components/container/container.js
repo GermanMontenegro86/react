@@ -1,9 +1,12 @@
-const Container=()=>{
-    return(
+function Container(greeting) {
+    return (
         <div>
-            <h3>Aca va ir informacion sobre la app</h3>
+          
+          <h1>{greeting.mensaje}</h1>
         </div>
+      
     )
-}
-
-export default Container;
+  }
+  
+  export default Container;
+  
