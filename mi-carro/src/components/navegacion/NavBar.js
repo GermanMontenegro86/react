@@ -24,7 +24,6 @@ function NavBar() {
               <NavDropdown.Item href="#action/3.3">Cuchillos</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Ropa</NavDropdown.Item>
             </NavDropdown>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
