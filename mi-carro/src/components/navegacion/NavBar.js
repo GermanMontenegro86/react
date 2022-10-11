@@ -11,7 +11,9 @@ function NavBar() {
     <div>
     <Navbar bg="z" expand="lg">
       <Container>
+      
         <Navbar.Brand href="#home">PESCA MEJOR!!!!</Navbar.Brand>
+        <CartWidget/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -22,11 +24,12 @@ function NavBar() {
               <NavDropdown.Item href="#action/3.3">Cuchillos</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Ropa</NavDropdown.Item>
             </NavDropdown>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <CartWidget/>
+    
     </div>
   );
 }
