@@ -19,11 +19,8 @@ function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="#">Cañas</Nav.Link>
             <Nav.Link href="#">Reels</Nav.Link>
-            <NavDropdown title="Articulos" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#">Campings</NavDropdown.Item>
-              <NavDropdown.Item href="#">Cuchillos</NavDropdown.Item>
-              <NavDropdown.Item href="#">Ropa</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="#">Camping</Nav.Link> 
+            <Nav.Link href="#">Ropa</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
