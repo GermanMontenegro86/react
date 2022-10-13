@@ -12,7 +12,7 @@ function NavBar() {
     <Navbar bg="z" expand="lg">
       <Container>
       
-        <Navbar.Brand href="#home">PESCA MEJOR!!!!</Navbar.Brand>
+        <Navbar.Brand href="#home"><img className='logo' src="https://fontmeme.com/permalink/221012/dddfc5421b281ebd65d419abd78f8ed0.png" alt="fuente-de-google" border="0"/></Navbar.Brand>
         <CartWidget/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -31,3 +31,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
